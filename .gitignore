@@ -5,6 +5,7 @@ venv/
 # Игнорировать файлы конфигурации и ключей
 service_account.json
 service-account.json
+__pycache__/
 *.env
 
 # Игнорировать временные и кеш-файлы
@@ -20,4 +21,4 @@ __pycache__/
 
 __pycache__/
 *.pyc
-*.pyo
+*.pyo   
