@@ -3,6 +3,7 @@ venv/
 .venv/
 
 # Игнорировать файлы конфигурации и ключей
+service_account.json
 service-account.json
 *.env
 
