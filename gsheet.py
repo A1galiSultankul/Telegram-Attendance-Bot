@@ -331,7 +331,7 @@ def update_database():
 
 
 
-schedule.every(1).minutes.do(update_database)
+schedule.every(24).hours.do(update_database)
 
     # schedule.every().minutes.do(check_registration_status)
 

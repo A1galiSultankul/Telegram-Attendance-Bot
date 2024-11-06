@@ -179,10 +179,10 @@ def handle_attendance_code(message):
 
 def schedule_absence_check(attendance_code, course_name):
     
-    timer = threading.Timer(35, insert_absent_for_unmarked_attendance, [attendance_code, course_name])
+    timer = threading.Timer(1800, insert_absent_for_unmarked_attendance, [attendance_code, course_name])
     timer.start()
 
-    timer = threading.Timer(40, Attendance_percentage, [course_name])
+    timer = threading.Timer(1860, Attendance_percentage, [course_name])
     timer.start()
 
 
